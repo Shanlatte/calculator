@@ -1,0 +1,36 @@
+
+.container {
+    background-color: #000000;
+    max-width: 308px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 35px;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.keypad_btns { 
+        display: grid;
+        grid: repeat(5, 45px) / repeat(4, 45px);
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+}
+
+.keypad_btns button {
+    outline: none;
+    border:none;
+    border-radius: 10px;
+    background-color: #000000;
+    color: white;
+    font-size: large;
+    font: bold;
+  }
+
+  .keypad_btns button:hover {
+    background-color: #050505;
+  }
+
+
